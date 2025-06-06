@@ -38,7 +38,7 @@ async function fetchWeatherData() {
     temp.innerHTML = firstPeriod.temperature;
 
     const memeImage = document.getElementById('memeImage');
-    forecastIcon.src = memes_urls[0].image_url;
+    memeImage.src = memes_urls[0].image_url;
 }
 
 
